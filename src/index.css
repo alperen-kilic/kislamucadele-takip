@@ -2,12 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "StudioGothic";
+  src: url("/fonts/StudioGothic-Medium.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "StudioGothic";
+  src: url("/fonts/StudioGothic-Light.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "StudioGothic";
+  src: url("/fonts/StudioGothic-Fat.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "StudioGothic";
+  src: url("/fonts/StudioGothic-ExtraBold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
-  background-color: black;
 }
 
 .box {
