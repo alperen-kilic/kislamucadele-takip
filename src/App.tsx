@@ -3,9 +3,9 @@ import Content from "./maincontent/Content";
 import TopBar from "./topbar/TopBar";
 function App() {
   return (
-    <div className="box">
+    <div className="flex flex-col h-full">
       <TopBar />
-      <div className="row content font-studio">
+      <div className="flex-1 font-studio">
         <Content />
       </div>
       <Footer />

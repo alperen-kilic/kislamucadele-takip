@@ -11,7 +11,7 @@ const GraphCard = ({ title, tumYollar, acikYol }: Props) => {
   return (
     <div>
       <p className="text-3xl xl:text-4xl">{title}</p>
-      <div className="flex justify-center space-x-8 text-6xl xl:text-7xl mt-2 mb-6">
+      <div className="flex justify-center space-x-8 text-6xl lg:text-5xl xl:text-7xl mt-2 mb-6">
         <p className="text-[#3aa500]">{acikYol}</p>
         <p className="text-[#e50202]">{tumYollar - acikYol}</p>
       </div>
