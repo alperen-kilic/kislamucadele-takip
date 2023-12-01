@@ -17,7 +17,7 @@ const Footer = () => {
     };
   }, []);
   return (
-    <div className="bg-indigo-950 flex-grow-0 flex-shrink basis-10 text-white text-xl flex items-center justify-center lg:justify-end font-bold lg:pr-5">
+    <div className="bg-white flex-grow-0 flex-shrink basis-10 text-[#1A76BC] text-xl flex items-center justify-center lg:justify-end font-bold lg:pr-5">
       {saat}
     </div>
   );

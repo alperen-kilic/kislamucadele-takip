@@ -19,7 +19,7 @@ const GraphCard = ({ title, tumYollar, acikYol }: Props) => {
         lineWidth={25}
         labelStyle={{
           fontSize: "25px",
-          fill: "#fff",
+          fill: "#207BBE",
         }}
         labelPosition={0}
         label={() => `%${((acikYol / tumYollar) * 100).toFixed()}`}
